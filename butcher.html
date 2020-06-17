@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+</head>
+<body>
+<!-- Header Second Page -->
+<nav class="top-bar topbar-responsive">
+  <div class="top-bar-title">
+    <a class="topbar-responsive-logo" href="index.html"><i class="fas fa-bacon">&nbsp;</i>BACON<strong>BUTTON</strong></a>
+  </div>
+  <div id="topbar-responsive" class="topbar-responsive-links">
+    <div class="top-bar-right">
+      <ul class="menu simple vertical medium-horizontal">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <button type="button" class="button hollow topbar-responsive-button"><a href="butcher.html">Find a Restaurant</a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Section: Intro -->
+
+  <header class="sticky-shrinknav-header">
+    <h1 class="sticky-shrinknav-header-title"><img src = ""></h1>
+    
+  </header>
+    <!-- Section: Intro for Second Page -->
+    <div class="grid-container grid-padding-x main-contain"> <!-- page container -->
+      <div class="grid-x align-center-middle">
+        <div class="cell medium-8">
+          <h1 class="center">Hungry for some barbecue?</h1>
+            <p class="center">Let's find some restaurants around town that promise a taste of the smoky treat!</p>
+        </div>
+        <div class="grid-x align-center-middle">
+          <div class="cell medium-5">
+            <p></p>
+          </div>
+        </div>
+    </div>
+    <!-- Section: Recipe number input -->
+    <div class="grid-x align-center-middle recipe-input-row">
+      <div class="cell medium-4"></div>
+    </div>
+        <div class="grid-x align-center-middle">
+        <div class="cell medium-4">
+          <label class="text-white center" for="city-search">Search your city:</label>
+          <div class="input-group mb-3">
+            <form class="example" action="action_page.php">
+              <input type="text" placeholder="City Name..." name="search" id = "city-search">
+              <button type="submit" id = "search-button" ><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+      </div>
+      <div class="medium-12 restaurants-list"></div>
+    </div>
+    </div>
+<!-- Footer -->
+<footer class="grid-x align-center-middle">
+  <div class="footer">
+    <div class="cell medium-12">
+      <p>&copy; 2020 - Breakout Room 2</p>
+    </div>
+  </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="assets/JavaScript/restaurant.js"></script>
+</body>
+</html>
