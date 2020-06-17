@@ -8,6 +8,12 @@ GitHub link to page: (https://puppyburp.github.io/project-1-bacon-button/)
 
 ------------------------------------
 
+4 member group project. My tasks included:
+* Creating all HTML and CSS elements (for index.html and style.css pages).
+* JavaScript for the bacon button, some of the dynamically created recipe cards, and misc. bug fixes. 
+
+------------------------------------
+
 The following image demonstrates the application functionality:
 
 ![bacon button](/Assets/Images/bacon-demo.png)
