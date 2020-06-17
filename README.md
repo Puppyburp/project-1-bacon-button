@@ -10,6 +10,6 @@ GitHub link to page: (https://puppyburp.github.io/project-1-bacon-button/)
 
 The following image demonstrates the application functionality:
 
-![bacon button](assets/images/bacon-demo.png)
+![bacon button](/assets/images/bacon-demo.png)
 
 
